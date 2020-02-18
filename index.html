@@ -5,32 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
-<body class="bg-blue-100">
+<body class="bg-gray-200">
   
     <div class="flex flex-row fixed text-center w-full bg-blue-900 h-10">
-        <h1 class="text-white mt-2 mb-2 ml-12">Libre</h1>
-        <input class=" text-start w-9/12 bg-blue-800 mt-2 mb-2 ml-40 "type="text" placeholder=" Search"name="search">
-        <h3 class=" text-white items-end text-end mt-2 mb-2 ml-48 mr-4 pl-20">Codrops</h3>
+        <!-- <div class="flex flex-col">
+            <button class="text-white mt-2 mb-2 ml-2 font-bold inline-block"type="button"><span><img class="h-6 w-6 inline-block" src="night-120.png" alt=""></span>Libre</button>
+        </div>        -->
+        <div class="flex flex-row h-6 w-6 items-center mt-2 mb-2 ml-5 font-bold text-white "><img class="text-white mr-2" src="night-120.png" class="inline-block">Libre</div>
+        <!-- <p class="mb-2 mt-2 ml-16 inline"><span><img class="h-8 w-8 inline items-center ml-4 justify-start" src="night-120.png" alt=""></span>Libre</p> -->
+        <div>
+            
+        </div>
+        <input  class=" text-start w-7/12 bg-gray-300 mt-2 mb-2 ml-56 pl-6 overflow-hidden border-justify-center icons" type="text" placeholder=" Search"name="search">
+        <h3 class=" text-white items-end text-end mt-2 mb-2 ml-32 mr-4 pl-20">Codrops</h3>
     </div>
     <div class="flex flex-row w-full ">
-        <div class="flex flex-col fixed items-start ml-12 mt-8 mb-4 mr-16 ">
-            <button class="mb-2 mt-8" type="button">Home</button>
-            <button class="mb-2" type="button">categories</button>
-            <button class="mb-2" type="button">Fiction</button>
-            <button class="mb-2" type="button">Nonfiction</button>
-            <button class="mb-2" type="button">Lifestyle</button>
-            <button class="mb-2" type="button">Health & Fitness</button>
-            <button class="mb-2" type="button">Art & Design</button>
-            <button class="mb-2" type="button">Music</button>
-            <button class="mb-2" type="button">Wishlist</button>
+        <div class="flex flex-col fixed items-start ml-4 mt-8 mb-4 mr-26  pb-full ">
+            <!-- <button class="mb-2 mt-8 text-center text-xl" type="button"><i class="fab fa-home  mr-2"style=""></i>Home</button>
+            <button class="mb-2 mt-2 text-center text-xl" type="button"><i class="fa-bars  mr-2"style="color:#3b5998"></i> categories</button>
+            <button class="mb-2 mt-2 text-center text-xl" type="button"><span><img class="h-5 w-6 inline items-center mr-2" src="house-128.png" alt=""></span>Fiction</button>
+            <button class="mb-2 mt-2 text-center text-xl" type="button"><span><img class="h-5 w-6 inline items-center mr-2" src="717009-tags-128.png" alt=""></span>Nonfiction</button>
+            <button class="mb-2 mt-2 text-center text-xl" type="button"><span><img class="h-5 w-6 inline items-center mr-2" src="boy-128.png" alt=""></span>Lifestyle</button>
+            <button class="mb-2 mt-2 text-center text-xl" type="button"><span><img class="h-5 w-6 inline items-center mr-2" src="house-128.png" alt=""></span>Health & Fitness</button>
+            <button class="mb-2 mt-2 text-center text-xl" type="button"><span><img class="h-5 w-6 inline items-center mr-2" src="boy-128.png" alt=""></span>Art & Design</button>
+            <button class="mb-2 mt-2 text-center text-xl" type="button"><span><img class="h-5 w-6 inline items-center mr-2" src="house-128.png" alt=""></span>Music</button>
+            <button class="mb-2 mt-2 text-center text-xl" type="button"><span><img class="h-5 w-6 inline items-center mr-2" src="boy-128.png" alt=""></span>Wishlist</button> -->
+            
+            <a class="font-bold text-xl mb-2  mt-8 text-gray-800" href="#"><i class="fas fa-home mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>Home</a>
+            <a class="font-bold text-xl mb-1  text-gray-800" href="#"><i class="fas fa-bars mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>categories</a>
+            <a class="font-bold text-xl mb-1  text-gray-800" href="#"><i class="fas fa-rocket mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>Fiction</a>
+            <a class="font-bold text-xl mb-1  text-gray-800" href="#"><i class="fab fa-airbnb mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>Nonfiction</a>
+            <a class="font-bold text-xl mb-1  text-gray-800" href="#"><i class="fas fa-heart mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>Lifestyle</a>
+            <a class="font-bold text-xl mb-1  text-gray-800" href="#"><i class="fas fa-running mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>Health & Fitness</a>
+            <a class="font-bold text-xl mb-1  text-gray-800" href="#"><i class="fas fa-palette mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>Art & Design</a>
+            <a class="font-bold text-xl mb-1  text-gray-800" href="#"><i class="fas fa-music  mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>Music</a>
+            <a class="font-bold text-xl mb-1  text-gray-800" href="#"><i class="fas fa-list-ul mr-3 font-bold text-xl mb-2 mt-2"style="color:#3b5998"></i>Wishlist</a>
+            
         </div>
-        <div class="flex flex-col ml-48 text-center w-11/12 bg-grey-200">
+        <div class="flex flex-col ml-56 text-center w-11/12 bg-gray-300 shadow-md">
             <div class="flex flex-row justify-between w-9/12 mt-8 ">
                 <div  class="flex flex-col">
-                    <h1 class="mt-2 mb-2 mt-8 ml-12 text-xl">Art & Design</h1>
+                    <h1 class=" mb-0 mt-8 ml-12 text-xl font-bold pl-1 text-gray-900">Art & Design</h1>
                
-                    <p class="mt-2 mb-2 ml-12 mt-2 colors.gray">Intresting Stats</p>
+                    <p class="mt-1 mb-2 ml-12 mt-2 colors.gray pr-3">Intresting Stats</p>
                 </div>
                 <div>
                     <button class="bg-blue-900 rounded-full py-2 px-4 mt-12 mr-6 text-white">Add New Book</button>
@@ -47,19 +66,19 @@
                     <div class="flex flex-row">
                         <div class="flex flex-row">
                             <div class="ml-4 text-justify ">
-                                <p>Name</p>
+                                <p class="font-bold text-blue-800">Name</p>
                                 <p class="border-b-4 border-gray-100 mt-2 mb-2">Bibek Bhandari</p>
                                 <p class="border-b-4 border-gray-100 mt-2 mb-2">Dilip Bhattarai</p>
                                 <p class="border-b-4 border-gray-100 mt-2 mb-2">Arun Bastola</p>
                             </div>
                             <div class="ml-4">
-                               <p>Owned/Wishlist</p>
+                               <p class="font-bold text-blue-800">Owned/Wishlist</p>
                                <p class="border-b-4 border-gray-100 mt-2 mb-2">5/4</p>
                                <p class="border-b-4 border-gray-100 mt-2 mb-2">1/3</p>
                                <p class="border-b-4 border-gray-100 mt-2 mb-2">1/1</p>
                             </div>
                             <div class="ml-4">
-                                <p>Nationality</p>
+                                <p class="font-bold text-blue-800">Nationality</p>
                                 <p class="border-b-4 border-gray-100 mt-2 mb-2">Canada</p>
                                 <p class="border-b-4 border-gray-100 mt-2 mb-2">Canada</p>
                                 <p class="border-b-4 border-gray-100 mt-2 mb-2">Canada</p>
@@ -68,11 +87,11 @@
                         <div class="flex flex-col">
                             <div class="flex flex-row">
                                <div class="">
-                                   <p class="ml-6">Most read format</p>
+                                   <p class="ml-6 font-bold text-blue-800">Most read format</p>
                                    <p class="mr-16 mb-5">Print</p>
                                </div>
                                <div class="ml-4">
-                                   <p class="ml-4" >Total Read/Owned</p>
+                                   <p class="ml-4 font-bold text-blue-800" >Total Read/Owned</p>
                                    <p>4/7</p>
                                </div>
                             </div>
@@ -86,25 +105,25 @@
                     </div>
                     
                 </div>
-                <div class="flex flex-col  w-9/12 ml-12 ">
-                    <div class="flex flex-row justify-between mt-5 mb-5 ">
+                <div class="flex flex-col  w-9/12 ml-12">
+                    <div class="flex flex-row justify-between mt-5 mb-5 border-b-4 border-gray-500 mr-20">
                          <p>Books</p>
-                        <div class="flex justify-between mr-12">
+                        <div class="flex justify-between">
                             <p class="">Library (35)</p>
-                            <h3 class="mr-6 ml-5 border-b-4 border-blue-700">Picks for You</h3>
+                            <h3 class="ml-5 border-b-4 border-blue-700">Picks for You</h3>
                         </div>
                        
                     </div>
-                    <div class="flex flex-col w-11/12">
+                    <div class="flex flex-col w-11/12 shadow-2xl">
                         <div class="flex flex-row">
-                            <div class="flex flex-row w-9/12 items-left bg-orange-400">
+                            <div class="flex flex-row w-9/12 items-left bg-orange-400 shadow-md">
                                 <div>
                                     <img class="h-40 ml-4 mr-4 mt-4 mb-4" src="images.jfif" alt="">
                                 </div>
                                <div  class="ml-6 mr-4 mt-auto mb-auto">
                                     <h3 class="text-justify font-bold">Popeye jul 2018</h3>
                                     <p class="text-justify mt-2 mb-2">Lorem ipsum dolor sit amet consectetur elit.Lorem ipsum dolor sit amet consectetur elit</p>
-                                    <button class="bg-white rounded-full py-2 px-4 justify-center">Add to Wishlist</button>
+                                    <button class="bg-white rounded-full py-2 px-4 justify-center text-gray-600">Add to Wishlist</button>
                                </div>
                                
                            
@@ -116,7 +135,7 @@
                                <div class="ml-6 mr-4 mt-auto mb-auto">
                                     <h3 class="text-justify font-bold">Brutus Aug 2018</h3>
                                     <p class="text-justify mt-2 mb-2">Lorem ipsum dolor sit amet consectetur elit.Lorem ipsum dolor sit amet consectetur elit</p>
-                                     <button class="bg-white rounded-full py-2 px-4">Add to Wishlist</button>
+                                     <button class="bg-white rounded-full py-2 px-4 text-gray-600">Add to Wishlist</button>
                                </div>
                                
                            
@@ -130,7 +149,7 @@
                                 <div  class="ml-6 mr-4 mt-auto mb-auto">
                                     <h3 class="text-justify font-bold">Casa Aug 2018</h3>
                                     <p class="text-justify mt-2 mb-2">Lorem ipsum dolor sit amet consectetur elit.Lorem ipsum dolor sit amet consectetur elit</p>
-                                    <button class="bg-white rounded-full py-2 px-4">Add to Wishlist</button>
+                                    <button class="bg-white rounded-full py-2 px-4 text-gray-600">Add to Wishlist</button>
                            
                                 </div>
                                 
@@ -145,7 +164,7 @@
                                 <div  class="ml-6 mr-4 mt-auto mb-auto">
                                     <h3 class="text-justify font-bold">SUPER:001</h3>
                                     <p class="text-justify mt-2 mb-2">Lorem ipsum dolor sit amet consectetur elit.Lorem ipsum dolor sit amet consectetur elit</p>
-                                    <button class="bg-white rounded-full py-2 px-4">Add to Wishlist</button>
+                                    <button class="bg-white rounded-full py-2 px-4 text-gray-600">Add to Wishlist</button>
                                 </div>
                                 
                                
@@ -158,47 +177,49 @@
             </div>
            
         </div>
-        
-            <div  class="flex flex-col fixed top-0 right-0 mt-16 mr-8">
-                <div class="flex flex-row mb-5 border-b-4 border-gray-200">
-                    <img class="rounded-full h-12 w-12" src="download.jfif" alt="">
-                    <h2>Amie Chen<br>Joined since 2017</h2>
-                  </div>
-                <div class="flex flex-col mb-3">
-                    <div>
-                        <p class="mb-2">You've read 4 of 30<br>books in 2018</p>
-                    </div>
-                    
-                    <div class="flex flex-row">
-                        <img class="h-12 w-12" src="images (1).jfif" alt="">
-                        <img class="h-12 w-12" src="download.jfif" alt="">
-                        <img class="h-12 w-12" src="images (1).jfif" alt="">
-                        <img class="h-12 w-12" src="download.jfif" alt="">
-                    </div>
+    
+
+        <div  class="flex flex-col fixed top-0 right-0 mt-16  ml-8 shadow-md pb-full">
+            <div class="flex flex-row mb-5 border-b-4 border-gray-200 ml-2">
+                <img class="rounded-full h-12 w-12 mr-2 mb-3" src="download.jfif" alt="">
+                <h2><b>Amie Chen</b><br>Joined since 2017</h2>
+              </div>
+            <div class="flex flex-col mb-3">
+                <div>
+                    <p class="mb-2 ml-2 text-blue-900">You've read <b>4 of 30</b><br><b>books</b> in 2018</p>
                 </div>
-                <div >
-                    <div>
-                        <p class="mb-2">Currently Reading</p>
-                    </div>
-                  
-                    <div class="flex flex-row">
-                        <div>
-                            <img class="h-20 w-12" src="download.jfif" alt="">
-                        </div>
-                        <div class="flex flex-col">
-                            <div>
-                                <p>Popular Lies* About Graphic<br>Design</p>
-                            </div>
-                            <div>
-                                <p>15/250 pages</p>
-                            </div>
-                            
-                        </div>
-                       
-                    </div>
+                
+                <div class="flex flex-row">
+                    <img class="h-16 w-16 px-2 py-2" src="images (1).jfif" alt="">
+                    <img class="h-16 w-16 px-2 py-2" src="download.jfif" alt="">
+                    <img class="h-16 w-16 px-2 py-2" src="images (1).jfif" alt="">
+                    <img class="h-16 w-16 px-2 py-2" src="download.jfif" alt="">
                 </div>
             </div>
-        
+            <div >
+                <div>
+                    <p class="mb-2 ml-2 text-gray-900">Currently Reading</p>
+                </div>
+              
+                <div class="flex flex-row">
+                    <div>
+                        <img class="h-20 w-20 px-2 py-2" src="download.jfif" alt="">
+                    </div>
+                    <div class="flex flex-col">
+                        <div>
+                            <p class="">Popular Lies* About Graphic <br>Design</p>
+
+                        </div>
+                        <div>
+                            <p>15/250 pages</p>
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    
         
     </div>
     

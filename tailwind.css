@@ -12,7 +12,21 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-
+.icons{
+  background-image: url("search.png");
+  background-repeat: no-repeat;
+ 
+  
+}
+.icon-search {
+  color:white;
+  background-color:black;
+ 
+}
+.input-icons { 
+  width: 100%; 
+  margin-bottom: 10px; 
+} 
 /* Sections
    ========================================================================== */
 
